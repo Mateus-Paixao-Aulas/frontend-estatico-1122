@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 - Formulários</title>
+</head>
+<body>
+
+    <h1>Formulários</h1>
+
+    <form>
+        <label for="inputNome">Nome</label>
+        <input id="inputNome" type="text" placeholder="Digite o seu nome..." />
+
+        <br/>
+
+        <label for="inputIdade">Idade</label>
+        <input id="inputIdade" type="number" placeholder="Digite o sua idade..." />
+
+        <label for="inputTelefone">Telefone</label>
+        <input id="inputTelefone" type="text" placeholder="(99) 9999-9999" />
+    </form>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Não é legal D= Não utilizar a tag form, ao resgatar input -->
+    <label for="inputEmail">Seu E-mails</label>
+    <input id="inputEmail" type="email" placeholder="Digite seu e-mail"/>
+
+    <form>
+        <label for="inputEmail">Seu E-mails</label>
+        <input id="inputEmail" type="email" placeholder="Digite seu e-mail"/>
+    </form>
+
+    <hr/>
+
+    <h2>Alguns tipos de inputs</h2>
+
+    <form>
+        <input type="text" name="nome" id="nome1" placeholder="Input Text" value="Valor Padrão" ><br />
+        <input type="text" name="nome" id="nome" placeholder="Input Text"><br />
+        <input type="password" name="senha" id="senha" placeholder="Input Password"><br />
+        <input type="number" name="idade" id="idade" placeholder="Input Number"><br />
+        
+        <p>Input Checkbox</p>
+        <input type="checkbox" name="interesse1" id="interesse1" value="Interesse1"><br />
+        <input type="checkbox" name="interesse1" id="interesse2" value="Interesse1"><br />
+        <input type="checkbox" name="interesse1" id="interesse3" value="Interesse1"><br />
+
+        <p>Input Radio</p>
+        <input type="radio" name="opcao1" id="opcao1" value="Opcao1"><br />
+        <input type="radio" name="opcao1" id="opcao1" value="Opcao1"><br />
+        <input type="radio" name="opcao1" id="opcao1" value="Opcao1"><br />
+        <input type="date" name="data" id="data"><br />
+        <input type="time" name="hora" id="hora"><br />
+        <input type="file" name="arquivo" id="arquivo"><br />
+        <input type="color" name="cor2" id="cor2"><br />
+        <input type="range" name="intervalo" id="intervalo"><br />
+        <input type="search" name="busca" id="busca"><br />
+        <input type="hidden" name="campooculto" id="campooculto"><br />
+        <input type="datetime-local" name="datahora" id="datahora"><br />
+        <input type="month" name="mes" id="mes"><br />
+        <input type="week" name="semana" id="semana"><br />
+        <input type="datetime" name="datahoraantiga" id="datahoraantiga"><br />
+    </form>
+</body>
+</html>
