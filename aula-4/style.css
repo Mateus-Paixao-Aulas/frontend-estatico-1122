@@ -1,0 +1,48 @@
+/* 
+    - Seletores
+    - Box Model - Próxima aula 
+    - Position - Próxima aula
+*/
+
+/* Pesquisar sobre Reset CSS */
+
+/* Tag */
+p {
+    font-family: sans-serif;
+    color: #000;
+}
+
+/* Aplicar mesma regra separando por virgula */
+div, ul, .fundo_roxo {
+    background: purple;
+}
+
+/* ID */
+#item {
+    background: green;
+}
+
+/* Classe */
+/* tag.classe = ser mais especifico na regra css */
+p.conteudo {
+    background: pink;
+}
+
+/* Hierarquia */
+
+div.conteudo ul {
+    background: red;
+}
+
+/* Tag + Classe */
+div.conteudo ul li {
+    background: yellow;
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+/* TODO: falar sobre + seletores */
+.conteudo ul > li {
+    background: green;
+}
+
