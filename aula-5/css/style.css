@@ -1,0 +1,59 @@
+/* selecionar todos os elementos (propriedade comum) */
+* {
+    background: #cecece;
+}
+
+/* - Box Model */
+nav a {
+    display: inline-block;
+    background-color: tomato;
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+
+nav button {
+    /* border-size não existe */
+    /* border-width: 2px; */
+    border: 2px solid purple;
+    margin-left: calc(100% - 300px);
+    /* padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px; */
+
+    padding: 5px;
+    padding: 10px 15px 20px 30px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    border: 5px dashed red; /* usado para estilização */
+    padding: 20px; /* espaço interno */
+    margin: 30px;
+    margin-top: 5px; /* espaço externo */
+}
+
+ul li {
+    display: inline-block;
+}
+
+.center {
+    width: 100px;
+    height: 50px;
+
+    /* centraliza a div =) */
+    /* margin-right: auto;
+    margin-left: auto; */
+    margin: 20px auto;
+}
+
+.center p {
+    /* font-center não existe */
+    text-align: center;
+}
+
+/* 
+    - Seletores
+    - Position - Próxima aula
+*/
