@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+}
+
+body {
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header, nav, aside, main, footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+
+
+header {
+    background-color: #f7788f;
+}
+
+nav {
+    background-color: #49e2a9;
+}
+
+.content {
+    /* background: red; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+}
+
+aside {
+    background-color: #fad0d6;
+    width: 30%;
+}
+
+main {
+    background-color: #c9edff;
+    width: 70%;
+    height: 300px;
+}
+
+footer {
+    background-color: #b980ff;
+}
+
+/* Sem flex */
+/* https://www.w3schools.com/Css/css_float_examples.asp */
+
+/* clear fix */
+/* .content {    
+    overflow: hidden;
+}
+
+aside {
+    background-color: #fad0d6;
+    height: 300px;
+    float: left;
+    width: 150px;
+    margin-right: 10px;
+}
+
+main {
+    background-color: #c9edff;
+    height: 300px;
+    float: left;
+    width: calc(100% - 160px);
+} */
